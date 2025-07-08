@@ -2,7 +2,7 @@
 The following script produces the top 5 brands by by brand rankings of the current month and those from the previous month, so that
 the result set can be analyzed to observe the change in brand rank month over month (MoM).
 
-'''sql
+``` sql
 WITH monthly_brand_rankings AS (
     SELECT 
         db.brand_name
@@ -66,4 +66,4 @@ FULL OUTER JOIN
 ORDER BY 
     CASE WHEN curr.brand_rank_in_month IS NULL THEN 999 ELSE curr.brand_rank_in_month END,
     CASE WHEN prev.brand_rank_in_month IS NULL THEN 999 ELSE prev.brand_rank_in_month END;
-'''
+```

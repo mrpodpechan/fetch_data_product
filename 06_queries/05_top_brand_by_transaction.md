@@ -3,7 +3,7 @@ Using the same approach from the spend analytics, this script is designed to rep
 
 ## Pepsi seems to be the top brand by transaction count. Sadly, no cheese.
 
-'''sql
+``` sql
 SELECT 
     db.brand_name
     , db.brand_code
@@ -33,4 +33,4 @@ GROUP BY
 ORDER BY 
     total_transactions DESC
 LIMIT 10;
-'''
+```

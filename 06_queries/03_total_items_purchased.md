@@ -5,7 +5,7 @@ The second script is the counting of 'FINISHED' (assuming 'ACCEPTED') and then '
 ## ACCEPTED appears to be greater than REJECTED.
 
 ## Script 1 - all rankings
-'''sql
+```sql
 SELECT 
     drs.status_code as receipt_status
     , COUNT(fr.receipt_key) as receipt_count
@@ -42,4 +42,4 @@ GROUP BY
     drs.status_code
 ORDER BY 
     total_items_purchased DESC;
-'''
+```

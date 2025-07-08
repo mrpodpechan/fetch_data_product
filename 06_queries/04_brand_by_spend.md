@@ -3,7 +3,7 @@ This script is designed to represent the top 10 brands driven by a window functi
 
 ## Cracker Barrel Cheese is the clear winner (and it's really, really good cheese).
 
-'''sql
+```sql
 WITH recent_users AS (
     SELECT 
         user_key
@@ -44,4 +44,4 @@ GROUP BY
 ORDER BY 
     total_brand_spend DESC
 LIMIT 10; -- Showing the top 10 to observe the data and produce the topmost answer
-'''
+```

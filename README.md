@@ -13,12 +13,12 @@ The chosen SQL dialect for this project is PostgreSQL.
 * Example stakeholder communication for technical findings (see [Stakeholder Comms](05_stakeholder_responses/stakeholder.md))
 
 ## Write queries that directly answer predetermined questions from a business stakeholder:
-* What are the top 5 brands by receipts scanned for most recent month? [Top 5 Brands Query](./06_queries/06_queries/00_top_5_by_receipts.md)
-* How does the ranking of the top 5 brands by receipts scanned for the recent month compare to the ranking for the previous month? [Top 5 Brands Query By Receipt](./06_queries/01_top_5_brand_rank.md)
-* When considering average spend from receipts with 'rewardsReceiptStatus’ of ‘Accepted’ or ‘Rejected’, which is greater? [Average Spend](./06_queries/02_average_spend.md)
-* When considering total number of items purchased from receipts with 'rewardsReceiptStatus’ of ‘Accepted’ or ‘Rejected’, which is greater? [Total Items Purchased](./06_queries/03_total_items_purchased.md)
-* Which brand has the most spend among users who were created within the past 6 months? [Brand Spend Ranking](./06_queries/04_brand_by_spend.md)
-* Which brand has the most transactions among users who were created within the past 6 months? [Brand Transaction Ranking](./06_queries/05_top_brand_by_transaction.md)
+* What are the top 5 brands by receipts scanned for most recent month? [Top 5 Brands Query](/06_queries/06_queries/00_top_5_by_receipts.md)
+* How does the ranking of the top 5 brands by receipts scanned for the recent month compare to the ranking for the previous month? [Top 5 Brands Query By Receipt](/06_queries/01_top_5_brand_rank.md)
+* When considering average spend from receipts with 'rewardsReceiptStatus’ of ‘Accepted’ or ‘Rejected’, which is greater? [Average Spend](/06_queries/02_average_spend.md)
+* When considering total number of items purchased from receipts with 'rewardsReceiptStatus’ of ‘Accepted’ or ‘Rejected’, which is greater? [Total Items Purchased](/06_queries/03_total_items_purchased.md)
+* Which brand has the most spend among users who were created within the past 6 months? [Brand Spend Ranking](/06_queries/04_brand_by_spend.md)
+* Which brand has the most transactions among users who were created within the past 6 months? [Brand Transaction Ranking](/06_queries/05_top_brand_by_transaction.md)
   
 ## Communicate with Stakeholders
 * What questions do you have about the data?

@@ -3,7 +3,7 @@ The following script produces the top 5 brands by receipt counts using a window 
 (RANK) to order the months in the receipts result set and orders them by 1 so the 
 most recent month ended is present.
 
-'''sql
+```sql
 WITH monthly_brand_data AS (
     SELECT 
         db.brand_name
@@ -38,4 +38,4 @@ WHERE
 ORDER BY 
 	receipts_scanned DESC
 LIMIT 5;
-'''
+```
