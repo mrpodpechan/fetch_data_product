@@ -1,0 +1,12 @@
+Receipts:
+- Initial ingress failed
+- 2 records from the JSON file out of 1119 failed due to JSON malformity - PLATE and another problem
+
+Brands:
+- Initial ingress failed
+- 1 record from the JSON file out of 1167 failed due to JSON malformity 
+
+Users:
+- All 495 records ingested without issue
+- Duplicative user ID 5ff1e194b6a9d73a3a9f1052
+- Missing user ID 5f9c74f7c88c1415cbddb839, which is present in receipts
