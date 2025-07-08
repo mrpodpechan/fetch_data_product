@@ -10,7 +10,7 @@ The chosen SQL dialect for this project is PostgreSQL.
 * Relational database design and ERD modeling files (see [ERD Diagram Rewards Mart](02_erd_diagrams/Fetch_ERD.pdf.png))
 * SQL queries used to answer the questions found deeper in this README (see below)
 * SQL queries used to assess data quality (see [Quality Queries](03_data_quality/00_quality.md))
-* Example stakeholder communication for technical findings (see [Stakeholder Comms](04_stakeholder_responses/stakeholder.md))
+* Example stakeholder communication for technical findings (see [Stakeholder Comms](04_stakeholder_comms/stakeholder.md))
 
 ## Write queries that directly answer predetermined questions from a business stakeholder:
 * What are the top 5 brands by receipts scanned for most recent month? [Top 5 Brands Query](/05_queries/00_top_5_by_receipts.md)
