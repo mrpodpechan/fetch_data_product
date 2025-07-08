@@ -19,10 +19,10 @@ GROUP BY
     drs.status_code
 ORDER BY 
     total_items_purchased DESC;
-'''
+```
 
 ## Script 2 - FINISHED and REJECTED:
-'''sql
+```sql
 SELECT 
     drs.status_code as receipt_status
     , COUNT(fr.receipt_key) as receipt_count
