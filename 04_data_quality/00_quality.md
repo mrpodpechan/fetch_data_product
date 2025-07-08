@@ -9,16 +9,16 @@ Data quality is assessed across three architectural layers:
 
 ## Data Quality Dimensions  
 ### 1. Completeness Analysis  
-**Purpose:** Identify missing data patterns that could impact analytical accuracy.
-**Script:** `02_null_checks.sql`
+**Purpose:** Identify missing data patterns that could impact analytical accuracy.  
+**Script:** `02_null_checks.sql`  
 **Key Metrics:**  
 - Null percentage by table and column
 - Critical business fields validation
 - Cross-layer completeness comparison
 
 ### 2. Referential Integrity    
-**Purpose:** Ensure proper relationships between tables and identify orphaned records.
-**Script:** `03_referential_integrity.sql`
+**Purpose:** Ensure proper relationships between tables and identify orphaned records.  
+**Script:** `03_referential_integrity.sql`  
 **Key Tests:**  
 - Orphaned Records Detection
 - Duplicate Key Validation
@@ -26,8 +26,8 @@ Data quality is assessed across three architectural layers:
 - Expected Results
 
 ### 3. Data Freshness Assessment  
-**Purpose:** Evaluate data recency and identify potential staleness issues.
-**Script:** `04_freshness_checks.sql`
+**Purpose:** Evaluate data recency and identify potential staleness issues.  
+**Script:** `04_freshness_checks.sql`  
 **Freshness Metrics:**  
 - Receipt Data Recency
 - User Registration Patterns
